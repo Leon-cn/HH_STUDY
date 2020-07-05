@@ -5,7 +5,7 @@ public class Fish extends Animal implements Pet {
     public void eat() {
         System.out.println("fish eat");
     }
-
+    //      鱼没有腿
     public Fish() {
         super(0);
     }
